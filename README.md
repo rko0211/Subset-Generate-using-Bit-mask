@@ -1,2 +1,3 @@
 # Subset-Generate-using-Bit-mask
-When ever any binary number is used to represent any property or like that of any quantity then this binary number is called bit mask of the given quantity . In this c++ code i am using bitmask to generate subset of an array or vector and all subset is stored in a vector then this vector is returned . 
+When ever any binary number is used to represent any property or like that of any quantity then this binary number is called bit mask of the given quantity . In this c++ code i am using bitmask to generate subset of an array or vector and all subset is stored in a vector then this vector is returned . In each Mask i am taking the number of bit equal to the number of element(n) present in side the array or vector.
+For an array of size n the number of subset can be constructed is (2^n). So, the number of bit mask will be (2^n) and bit mask start from 0 to ((2^n)-1)[ex:- 0,1,2,3,4..] .
